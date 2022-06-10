@@ -6,9 +6,8 @@
   <title>Fork Me! FCC: Test Suite Template</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-
+ 
 <body>
-  <div>
     <h1 id="title">Microverse software developers Survey Form</h1>
     <p id="description">Thank you for taking time to take part in this survey</p>
     <form action="" id="survey-form">
@@ -19,37 +18,37 @@
       <label for="" id="age-number">Age</label>
       <input type="number" id="age" maxlength="20" minlength="5" placeholder="Enter your age">
       <label for="" id="dropdown-lable">Which option best describes your current role?</label>
-      <select name="" id="dropdown" aria-placeholder="select your current role">
-        <option value="Student" ></option>
-        <option value="Full-Time Job"></option>
-        <option value="Full Time Learner"></option>
-        <option value="Prefer not to say"></option>
-        <option value="other"></option>
+      <select name="" id="dropdown">
+	<option disabled selected value>Select current role</option>
+        <option value="Student" >Student</option>
+        <option value="Full-Time Job">Full Time Job</option>
+        <option value="Full Time Learner">Full Time Learner</option>
+        <option value="Prefer not to say">Prefer not to say</option>
+        <option value="other">other</option>
       </select>
       <label for="" id="radio-label">Would you recommend Microverse to your friend?</label>
-      <input type="radio" name="radio-button">Definitely
-      <input type="radio" name="radio-button">Maybe
-      <input type="radio" name="radio-button">Not Sure
+     <div><input type="radio" name="radio-button">Definitely</div>
+     <div><input type="radio" name="radio-button">Maybe</div>
+     <div><input type="radio" name="radio-button">Not Sure</div>
       <label for=""></label>
       <label for="" id="dropdown-lable">What is your favorite feature of Microverse?</label>
-      <select name="" id="dropdown" placeholder="select your current role">
-        <option value="Challenges" ></option>
-        <option value="Community"></option>
-        <option value="Project"></option>
-        <option value="Open Source"></option>
+      <select name="" id="dropdown">
+	<option disabled selected value>Select an option</option>
+        <option value="Challenges" >Challange</option>
+        <option value="Community">Community</option>
+        <option value="Project">Project</option>
+        <option value="Open Source">Open Source</option>
       </select>
-      <label for="">What would you like to see improved? (Check all that apply)</label>
-      <input type="checkbox"> Front-end Project
-      <input type="checkbox"> Back-end Project
-      <input type="checkbox"> Data Visualisation
-      <input type="checkbox"> Challenges
-      <input type="checkbox"> Videos
-      <label for="">Any comments or suggestions?</label>
+      <label for="" id="improve-label">What would you like to see improved? (Check all that apply)</label>
+     <div><input type="checkbox" id="box"> Front-end Project</div>
+     <div><input type="checkbox" id="box"> Back-end Project</div>
+      <div><input type="checkbox" id="box"> Data Visualisation</div>
+      <div><input type="checkbox" id="box"> Challenges</div>
+      <div><input type="checkbox" id="box"> Videos</div>
+      <label for="" id="comment-label">Any comments or suggestions?</label>
       <textarea name="" id="textArea" cols="30" rows="10" placeholder="Enter your comment here"></textarea>
       <button id="submit">Submit</button>
     </form>
-  </div>
-
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
   <!--
