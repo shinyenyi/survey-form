@@ -28,13 +28,13 @@ h1, p {
   font-size: 22px;
 }
 
-#name, #email, #age, #dropdown, #textArea {
+#name, #email, #number, #dropdown, #textArea {
   padding: 5px;
   border-radius: 5px;
   margin-top: 5px;
 }
 
-#name-label, #email-label, #age-number, #dropdown-lable, #radio-label, #improve-label, #comment-label {
+#name-label, #email-label, #number-label, #dropdown-lable, #radio-label, #improve-label, #comment-label {
   margin-top: 20px;
   color: white;
   font-size: 20px;
